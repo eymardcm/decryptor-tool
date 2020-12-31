@@ -7,20 +7,31 @@ namespace decryptor
     {
         static void Main(string[] args)
         {
+            bool resume = true;
 
             Console.WriteLine("Decryptor Tool");
 
-            Console.WriteLine("\nEnter the base64-encoded 256-bit encryption key that was used to encrypt the data (aka: The Wrapping Key):");
+            while (resume) {
+                Console.WriteLine("\nEnter the base64-encoded 256-bit encryption key that was used to encrypt the data (aka: The Wrapping Key):");
 
-            string wrappingKey = Console.ReadLine();
+                string wrappingKey = Console.ReadLine();
 
-            Console.WriteLine("\nEnter the securedData you want decrypted:");
-            string jwe = Console.ReadLine();
+                Console.WriteLine("\nEnter the securedData you want decrypted:");
+                string jwe = Console.ReadLine();
 
-            string decryptedValue = Decrypt(jwe, wrappingKey);
+                string decryptedValue = Decrypt(jwe, wrappingKey);
 
-            Console.WriteLine("\n");
-            Console.WriteLine(decryptedValue);
+                Console.WriteLine("\n");
+
+                Console.WriteLine(decryptedValue);
+
+                Console.WriteLine("\nPress the Enter key to continue, or  type 'x' to exit\n");
+
+                string response = Console.ReadLine();
+
+                resume = response.ToLower() == "x" ? false : true;
+            }
+            
         }
 
         static string Decrypt(string securedData, string base64EncodedAESWrappingKey)
