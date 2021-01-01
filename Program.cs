@@ -23,7 +23,7 @@ namespace decryptor
                 Console.WriteLine($"\n{SecuredData.Decrypt()}");
 
                 Console.WriteLine("\nPress the Enter key to continue, or  [Ctrl + c] to exit.\n");
-                Console.ReadLine();
+                Console.ReadKey();
             }
 
         }
