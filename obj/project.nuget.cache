@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uIi//wFK7O0DC4pUSZvFb6sxc3/wXEVKdUkmWoMJK5/zowA2Q0uHzBW+wrVpn87A5ZO/WIBFbZyqc5vncbThhw==",
+  "dgSpecHash": "rwie578JOlAycnf9RYsSELf92DdwhrH0zfHL/FbcGx3ga2v1G6jkd2ilxKJaCiZG4XnwG1xlnLF1wM8J61o9Tg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\chad.eymard\\source\\repos\\decryptor\\decryptor.csproj",
+  "projectFilePath": "C:\\Users\\chad.eymard\\source\\repos\\decryptor\\Decryptor.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\chad.eymard\\.nuget\\packages\\chilkatdncore\\9.5.0.84\\chilkatdncore.9.5.0.84.nupkg.sha512",
     "C:\\Users\\chad.eymard\\.nuget\\packages\\chilkatnativelib\\9.5.0.84\\chilkatnativelib.9.5.0.84.nupkg.sha512",

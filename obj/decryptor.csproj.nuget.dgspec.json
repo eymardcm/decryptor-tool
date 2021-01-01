@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\chad.eymard\\source\\repos\\decryptor\\decryptor.csproj": {}
+    "C:\\Users\\chad.eymard\\source\\repos\\decryptor\\Decryptor.csproj": {}
   },
   "projects": {
-    "C:\\Users\\chad.eymard\\source\\repos\\decryptor\\decryptor.csproj": {
+    "C:\\Users\\chad.eymard\\source\\repos\\decryptor\\Decryptor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\chad.eymard\\source\\repos\\decryptor\\decryptor.csproj",
-        "projectName": "decryptor",
-        "projectPath": "C:\\Users\\chad.eymard\\source\\repos\\decryptor\\decryptor.csproj",
+        "projectUniqueName": "C:\\Users\\chad.eymard\\source\\repos\\decryptor\\Decryptor.csproj",
+        "projectName": "Decryptor",
+        "projectPath": "C:\\Users\\chad.eymard\\source\\repos\\decryptor\\Decryptor.csproj",
         "packagesPath": "C:\\Users\\chad.eymard\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\chad.eymard\\source\\repos\\decryptor\\obj\\",
         "projectStyle": "PackageReference",

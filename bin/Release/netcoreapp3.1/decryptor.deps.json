@@ -6,12 +6,12 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "decryptor/1.0.0": {
+      "Decryptor/1.0.0": {
         "dependencies": {
           "ChilkatDnCore": "9.5.0.84"
         },
         "runtime": {
-          "decryptor.dll": {}
+          "Decryptor.dll": {}
         }
       },
       "ChilkatDnCore/9.5.0.84": {
@@ -1404,7 +1404,7 @@
     }
   },
   "libraries": {
-    "decryptor/1.0.0": {
+    "Decryptor/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
