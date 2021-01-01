@@ -4,11 +4,9 @@ namespace decryptor.model
 {
     public struct SecuredData
     {
-        public string CipherText;
-        public string Base64EncodedAESWrappingKey;
-
-        
-        public string Decrypt()
+        public static string CipherText;
+        public static string Base64EncodedAESWrappingKey;       
+        public static string Decrypt()
         {
             //  First, load the JWE..
             bool success;
@@ -31,6 +29,11 @@ namespace decryptor.model
             }
 
             return clearText;
+        }
+        public static void Clear()
+        {
+            CipherText = string.Empty;
+            Base64EncodedAESWrappingKey = string.Empty;
         }
     }
 }
