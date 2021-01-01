@@ -1,4 +1,4 @@
-﻿using decryptor.model;
+﻿using Decryptor.Model;
 using static System.Console;
 
 namespace decryptor

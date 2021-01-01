@@ -1,6 +1,6 @@
 ﻿using Chilkat;
 
-namespace decryptor.model
+namespace Decryptor.Model
 {
     public struct SecuredData
     {
