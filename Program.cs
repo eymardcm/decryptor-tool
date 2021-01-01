@@ -1,7 +1,7 @@
 ﻿using Decryptor.Model;
 using static System.Console;
 
-namespace decryptor
+namespace Decryptor
 {
     class Program
     {
