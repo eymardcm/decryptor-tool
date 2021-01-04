@@ -1,4 +1,7 @@
-﻿using Chilkat;
+﻿//<ItemGroup >
+//    <PackageReference Include = "ChilkatDnCore" Version = "9.5.0.84" />
+//</ItemGroup >
+using Chilkat;
 
 namespace Decryptor.Model
 {
@@ -18,7 +21,6 @@ namespace Decryptor.Model
             if (success != true) return jwe.LastErrorText;
 
             //  2. Set the AES wrap key for the recipient index.
-            //     This is the base64 encoded 256-bit encryption key
             jwe.SetWrappingKey(0, Base64EncodedAESWrappingKey, "base64url");
             if (jwe.LastMethodSuccess != true) return jwe.LastErrorText;
             
