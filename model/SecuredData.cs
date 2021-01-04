@@ -4,8 +4,9 @@ namespace Decryptor.Model
 {
     public struct SecuredData
     {
-        public static string CipherText;
-        public static string Base64EncodedAESWrappingKey;       
+      
+        public static string CipherText;                    // this is the value of securedData
+        public static string Base64EncodedAESWrappingKey;   // this is the b64Encoded 256-bit encryption key    
         public static string Decrypt()
         {
             bool success;
