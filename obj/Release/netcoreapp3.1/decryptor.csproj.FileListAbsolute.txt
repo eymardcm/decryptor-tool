@@ -31,3 +31,4 @@ C:\Users\chad.eymard\source\repos\decryptor\obj\Release\netcoreapp3.1\decryptor.
 C:\Users\chad.eymard\source\repos\decryptor\obj\Release\netcoreapp3.1\decryptor.dll
 C:\Users\chad.eymard\source\repos\decryptor\obj\Release\netcoreapp3.1\decryptor.pdb
 C:\Users\chad.eymard\source\repos\decryptor\obj\Release\netcoreapp3.1\decryptor.genruntimeconfig.cache
+C:\Users\chad.eymard\source\repos\decryptor\obj\Release\netcoreapp3.1\Decryptor.csprojAssemblyReference.cache
